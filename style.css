@@ -66,7 +66,7 @@ body {
     text-align: center;
     color: RGB(30 79 0);
     font-family: 'Creepster', cursive;
-    font-size: 500%;
+    font-size: 800%;
     text-shadow: 2px 2px #ff0000;
 }
 
@@ -152,7 +152,7 @@ input {
     color: RGB(239 230 211);
     font-family: 'Creepster', cursive;
     text-shadow: 2px 2px #ff0000;
-    font-size: 200%;
+    font-size: 300%;
 }
 
 .menu {
