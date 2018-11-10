@@ -1,0 +1,186 @@
+/*  Cathy Simon  */
+/*  NYPL TechConnect Project_<code>  */
+/*  Blue Team  */
+/*  November 2018 */
+/*********************************************/
+
+html {
+font-family: 'Roboto', sans-serif;	
+background-color: rgb(108,172,228)
+}
+
+body  {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.harlemfixme {
+	position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+.harlemtopnav {
+	border: solid;
+	border-width: .5px;
+	border-color: rgb(255,255,255);
+}	
+
+.harleminnertopnav {
+		background-color: rgb(241, 85, 36);    /*  #F15524; */
+		list-style-type: none;   /* remove bullets */
+		display: flex;
+		margin: 0px;
+		padding-top:10px; 
+		padding-bottom:10px; 
+		color: RGB(4,30,66);
+		border-width: .5px;
+		border-style: solid;
+		border-color: RGB(4,30,66);  
+		text-align: right;
+
+}
+
+.harleminnertopnav > li > a {
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.harleminnertopnav > li > a > .harlemnycimg {
+	text-decoration: none;
+	padding-left: 0px;
+	padding-right: 0px;
+	height: 14px;
+}  
+
+
+li a:hover:not(.active) {
+    background-color: rgb(85,85,85);
+    color: rgb(255,255,255);
+}	
+
+
+/* NOW STYLE THE HERO   C E N T R A L   H A R L E M     */
+.harlemhero {
+	color: rgb(255,255,255);;
+	text-decoration: none;
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(255,255,255);
+}
+
+.harlemhero > h1{
+background-color: RGB(4,30,66);
+color: rgb(255,255,255);
+margin: 0; 
+padding-top: 5px;
+padding-bottom: 5px;
+text-align: center;
+font-size: 80px;
+}
+
+.harlemhero  > a:hover, a:visited, a:link, a:active {
+	color: rgb(255,255,255);
+	text-decoration: none;
+}
+
+.harlemhero > h2{
+	font-family: Lora;
+	background-color: RGB(4,30,66);
+	color: rgb(255,255,255);
+	padding-top: 0px;
+	margin: 0;
+	font-size: 20px;
+	padding-left: 90px;
+}
+
+/* NOW STYLE THE TOPIC HEADINGS */
+.harlemprimarynav {
+	border-style: double;
+	border-width: 0px;
+	border-color: rgb(255,255,255);
+	padding-left: 0px;
+	padding-right: 0px;	
+	margin-top: 200px;
+	margin-left: 150px;
+	margin-right: 150px;
+	display: flex;
+	
+}
+.harlemnavimg1 {
+	border-style: double;
+	border-width: 0px;
+	border-color: rgb(0,0,0);
+	padding-left: 0px;
+	padding-right: 0px;	
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	display: inline;	
+}
+
+.harlemprimarynav img  {
+	width:auto;
+	height:auto;
+	max-width:50%;
+	padding: 0px;
+	margin: 0px; 
+	border-style: solid;
+	border-width: 0px;
+	border-color: rgb(0,0,0);
+}
+
+/*  THE FOLLOWING LINES STYLE THE LIST OF LOCALES */
+.harlemactivitynav {
+	background-color: rgb(255,255,255); 
+	border-style: double;
+	border-width: 1px;
+	border-color: rgb(4,30,66);
+	margin-top: 5px;
+	margin-left: 50px;
+	margin-right: 70px;
+	display: flex;
+}
+
+.harlemactivitynav > table {
+	border-style: double;
+	border-width: 1px;
+	border-color: rgb(4,30,66);
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	display: flex;
+}
+
+.harlemactivitynav > table {
+	margin: 0;
+}
+
+td {
+	padding:1px;
+}
+
+.harlemthename {
+	font-weight:bold;
+}
+
+.harlemmapharlem  {
+	margin-left: 500px;
+	margin-right: 285px;
+	margin-top:0;
+	margin-bottom:0;
+	padding:0;
+	border: solid;
+	border-width: 5px;
+	border-color:  rgb(4,30,66);
+	width:658px;
+}
+
+
+.harlemtotop {  /* this button stays at the bottom of the page no matter where page is */
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+}

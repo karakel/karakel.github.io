@@ -1,0 +1,296 @@
+body {
+    font-family: 'Roboto', sans-serif;
+ 	margin-left: 0px;
+	margin-right: 0px;  
+    background-color: RGB(108,172,228);
+}
+
+.nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: RGB(4,30,66);
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav a {
+    text-decoration: none;
+    color: RGB(255,255,255);
+}
+
+.nav a:hover {
+    color: RGB(254,80,0);
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.side {
+    flex: 1;
+    border: 1px solid RGB(4,30,66);
+    padding: 2%;
+    padding-bottom: 50px;
+    background-color: RGB(254,80,0);
+}
+
+.side h2, h4 {
+    color: RGB(4,30,66);
+}
+
+.main {
+    flex: 4;
+    font-family: 'Lora', serif;
+    margin: 50px
+}
+
+.main h1 {
+    text-align: center;
+    color: RGB(4,30,66);
+}
+
+.side ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.side li {
+    margin-bottom: 8px;
+}
+
+.side a {
+    text-decoration: none;
+    color: RGB(255,255,255);
+}
+
+.side a:hover {
+    color: RGB(4,30,66);
+}
+
+.side img {
+    width: 100%;
+}
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+label {
+    color: RGB(255,255,255);
+}
+
+input {
+    width: 100%;
+    height: 20px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tip {
+    border: 1px solid RGB(254,80,0);
+    padding: 2%;
+    width: 40%;
+    background-color: RGB(255,255,255);
+    margin-bottom: 50px;
+}
+
+.tip h4, .tip p {
+    margin: 6px 0px
+}
+
+.tip img {
+    width: 100%
+}
+
+.tip a {
+    text-decoration: none;
+    color: RGB(4,30,66);
+}
+
+.tip a:hover {
+    color: RGB(254,80,0);
+}
+
+.harlemfixme {
+	position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+.harlemtopnav {
+	border: solid;
+	border-width: .5px;
+	border-color: rgb(255,255,255);
+}	
+
+.harleminnertopnav {
+		background-color: rgb(241, 85, 36);    /*  #F15524; */
+		list-style-type: none;   /* remove bullets */
+		display: flex;
+		margin: 0px;
+		padding-top:10px; 
+		padding-bottom:10px; 
+		color: RGB(4,30,66);
+		border-width: .5px;
+		border-style: solid;
+		border-color: RGB(4,30,66);  
+		text-align: right;
+
+}
+
+.harleminnertopnav > li > a {
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.harleminnertopnav > li > a > .harlemnycimg {
+	text-decoration: none;
+	padding-left: 0px;
+	padding-right: 0px;
+	height: 14px;
+}  
+
+
+li a:hover:not(.active) {
+    background-color: rgb(85,85,85);
+    color: rgb(255,255,255);
+}	
+
+
+/* NOW STYLE THE HERO   C E N T R A L   H A R L E M     */
+.harlemhero {
+	color: rgb(255,255,255);;
+	text-decoration: none;
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(255,255,255);
+}
+
+.harlemhero > h1{
+background-color: RGB(4,30,66);
+color: rgb(255,255,255);
+margin: 0; 
+padding-top: 5px;
+padding-bottom: 5px;
+text-align: center;
+font-size: 80px;
+}
+
+.harlemhero  > a:hover, a:visited, a:link, a:active {
+	color: rgb(255,255,255);
+	text-decoration: none;
+}
+
+.harlemhero > h2{
+	font-family: Lora;
+	background-color: RGB(4,30,66);
+	color: rgb(255,255,255);
+	padding-top: 0px;
+	margin: 0;
+	font-size: 20px;
+	padding-left: 90px;
+}
+
+/* NOW STYLE THE TOPIC HEADINGS */
+.harlemprimarynav {
+	border-style: double;
+	border-width: 0px;
+	border-color: rgb(255,255,255);
+	padding-left: 0px;
+	padding-right: 0px;	
+	margin-top: 200px;
+	margin-left: 150px;
+	margin-right: 150px;
+	display: flex;
+	
+}
+.harlemnavimg1 {
+	border-style: double;
+	border-width: 0px;
+	border-color: rgb(0,0,0);
+	padding-left: 0px;
+	padding-right: 0px;	
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	display: inline;	
+}
+
+.harlemprimarynav img  {
+	width:auto;
+	height:auto;
+	max-width:50%;
+	padding: 0px;
+	margin: 0px; 
+	border-style: solid;
+	border-width: 0px;
+	border-color: rgb(0,0,0);
+}
+
+/*  THE FOLLOWING LINES STYLE THE LIST OF LOCALES */
+.harlemactivitynav {
+	background-color: rgb(255,255,255); 
+	border-style: double;
+	border-width: 1px;
+	border-color: rgb(4,30,66);
+	margin-top: 5px;
+	margin-left: 50px;
+	margin-right: 70px;
+	display: flex;
+}
+
+.harlemactivitynav > table {
+	border-style: double;
+	border-width: 1px;
+	border-color: rgb(4,30,66);
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	display: flex;
+}
+
+.harlemactivitynav > table {
+	margin: 0;
+}
+
+td {
+	padding:1px;
+}
+
+.harlemthename {
+	font-weight:bold;
+}
+
+.harlemmapharlem  {
+	margin-left: 500px;
+	margin-right: 285px;
+	margin-top:0;
+	margin-bottom:0;
+	padding:0;
+	border: solid;
+	border-width: 5px;
+	border-color:  rgb(4,30,66);
+	width:658px;
+}
+
+
+.harlemtotop {  /* this button stays at the bottom of the page no matter where page is */
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+}
